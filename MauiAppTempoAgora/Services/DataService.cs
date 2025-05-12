@@ -37,7 +37,7 @@ namespace MauiAppTempoAgora.Services
                     {
                         lat = (double)rascunho["coord"]["lat"],
                         lon = (double)rascunho["coord"]["lon"],
-                        description = (string)rascunho["wather"][0]["description"],
+                        description = (string)rascunho["weather"][0]["description"],
                         main = (string)rascunho["weather"][0]["main"],
                         temp_min = (double)rascunho["main"]["temp_min"],
                         temp_max = (double)rascunho["main"]["temp_max"],
